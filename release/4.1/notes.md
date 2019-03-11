@@ -8,7 +8,7 @@ Version 4.1 differed from 4.0 by introducing the first integrated circuit board 
 
 #### Physical Assembly
 
-One of the most difficult things about this version is the physical assembly of the unit. We are currently using 3D printed parts in PETG with heat-set brass inserts. So far we have been quite happy with the mechanical durability with this process but the assembly of all of the parts continues to be prone to error. Below are some of our considerations for a future version that would increase the precision of the assembly and also reduce the amount of time required
+One of the most difficult things about this version is the physical assembly of the unit. We are currently using 3D printed parts in PETG with heat-set brass inserts. So far we have been quite happy with the mechanical durability with this process but the assembly of all of the parts continues to be prone to error. Below are some considerations for a future version that would increase the precision of the assembly and also reduce the amount of time required
 
 1. Combine printed parts into one single 'insert' that can fit directly into the pelican case.
 
@@ -28,3 +28,21 @@ One of the most difficult things about this version is the physical assembly of 
 - Uses more material to print
 
 Overall I think the positives outweigh the negatives. With a single piece printed piece we could easily apply epoxy without the need for tools or special equipment and simply position the insert into place. With the brass threaded inserts this provides a very quick and easy way to get repeatably good results.
+
+2. Change power switch labeling for on/off vertical alignment
+
+##### Positives
+
+- More Clear
+
+3. Use a detachable speaker cable
+
+##### Positives
+
+- Less Tangle
+- Easier to put away
+
+##### Negatives
+
+- Another jack on the electrical panel
+- Another possible point of failure

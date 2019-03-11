@@ -1,0 +1,15 @@
+{
+  "name": "vivi",
+  "version": "4.1.0",
+  "description": "a mobile cinema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@njmyers/directory": "^0.0.16",
+    "markdown-pdf": "^9.0.0"
+  }
+}
