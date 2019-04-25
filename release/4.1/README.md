@@ -12,37 +12,37 @@ One of the most difficult things about this version is the physical assembly of 
 
 1. Combine printed parts into one single 'insert' that can fit directly into the pelican case.
 
-##### Positives
+   - Positives
 
-- Able to have precise measurements
-- No need to use clamps while epoxying the insert
-- Better durability from one piece
-- Better adhesion from increased surface area
-- Faster assembly
+     - Able to have precise measurements
+     - No need to use clamps while epoxying the insert
+     - Better durability from one piece
+     - Better adhesion from increased surface area
+     - Faster assembly
 
-##### Negatives
+   - Negatives
 
-- Need to precisely model interior of pelican case
-- Subject to change if case undergoes design changes
-- More difficult to print a single piece of this size
-- Uses more material to print
+     - Need to precisely model interior of pelican case
+     - Subject to change if case undergoes design changes
+     - More difficult to print a single piece of this size
+     - Uses more material to print
 
-Overall I think the positives outweigh the negatives. With a single piece printed piece we could easily apply epoxy without the need for tools or special equipment and simply position the insert into place. With the brass threaded inserts this provides a very quick and easy way to get repeatably good results.
+   Overall I think the positives outweigh the negatives. With a single piece printed piece we could easily apply epoxy without the need for tools or special equipment and simply position the insert into place. With the brass threaded inserts this provides a very quick and easy way to get repeatably good results.
 
 2. Change power switch labeling for on/off vertical alignment
 
-##### Positives
+   - Positives
 
-- More Clear
+     - More Clear
 
 3. Use a detachable speaker cable
 
-##### Positives
+   - Positives
 
-- Less Tangle
-- Easier to put away
+     - Less Tangle
+     - Easier to put away
 
-##### Negatives
+   - Negatives
 
-- Another jack on the electrical panel
-- Another possible point of failure
+     - Another jack on the electrical panel
+     - Another possible point of failure
