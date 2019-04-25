@@ -1,1 +1,7 @@
+**/artifacts
+**/tmp
 **/node_modules
+**/.cache
+
+*.pdf
+*.png
