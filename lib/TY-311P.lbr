@@ -226,8 +226,57 @@
 </package>
 </packages>
 <symbols>
+<symbol name="TY-311P">
+<circle x="-3.048" y="3.81" radius="0.254" width="0.508" layer="94"/>
+<circle x="2.54" y="3.81" radius="0.254" width="0.508" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.508" y1="5.08" x2="-0.508" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="5.08" x2="0.508" y2="-5.08" width="0.1524" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="-5.083940625" y="7.6279" size="1.77938125" layer="95">&gt;NAME</text>
+<text x="-5.08136875" y="-10.1627" size="1.77848125" layer="96">&gt;VALUE</text>
+<text x="-7.874" y="-0.508" size="1.27" layer="94">PRI</text>
+<text x="4.572" y="-0.254" size="1.27" layer="94">SEC </text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="TY-311P" prefix="T">
+<description>Audio Transformer ¦0.5dB 1dB Through Hole &lt;a href="https://pricing.snapeda.com/parts/TY-311P/Triad%20Magnetics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TY-311P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XFMR_TY-311P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Audio Transformer ¦0.5dB 1dB Through Hole "/>
+<attribute name="MF" value="Triad Magnetics"/>
+<attribute name="MP" value="TY-311P"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TY-311P/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

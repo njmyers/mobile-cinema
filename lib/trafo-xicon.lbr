@@ -144,6 +144,67 @@
 </layers>
 <library>
 <packages>
+<package name="42TC">
+<description>&lt;b&gt;Xicon Ultra-Mini Audio Transformer&lt;/b&gt; 42TC Series&lt;p&gt;
+Source: http://www.mouser.com/catalog/specsheets/114225.pdf</description>
+<wire x1="4.2" y1="-2.45" x2="4.2" y2="-5.45" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-5.45" x2="3.2" y2="-6.45" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.2" y1="2.45" x2="4.2" y2="5.45" width="0.127" layer="21"/>
+<wire x1="4.2" y1="5.45" x2="3.2" y2="6.45" width="0.127" layer="21" curve="90"/>
+<wire x1="3.2" y1="6.45" x2="-3.2" y2="6.45" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="6.45" x2="-4.2" y2="5.45" width="0.127" layer="21" curve="90"/>
+<wire x1="-4.2" y1="5.45" x2="-4.2" y2="2.45" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-2.45" x2="-4.2" y2="-5.45" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-5.45" x2="-3.2" y2="-6.45" width="0.127" layer="21" curve="90"/>
+<wire x1="-3.2" y1="-6.45" x2="3.2" y2="-6.45" width="0.127" layer="21"/>
+<wire x1="-6.193" y1="-2.4337" x2="6.2184" y2="-2.4337" width="0.127" layer="21"/>
+<wire x1="6.193" y1="2.4337" x2="-6.2184" y2="2.4337" width="0.127" layer="21"/>
+<wire x1="-6.2184" y1="-2.4313" x2="-6.2184" y2="2.4337" width="0.127" layer="21"/>
+<wire x1="6.2184" y1="2.4313" x2="6.2184" y2="-2.4337" width="0.127" layer="21"/>
+<pad name="1" x="-2.794" y="-4.3434" drill="0.7" diameter="1.3"/>
+<pad name="2" x="0" y="-4.3434" drill="0.7" diameter="1.3"/>
+<pad name="3" x="2.794" y="-4.3434" drill="0.7" diameter="1.3"/>
+<pad name="4" x="2.794" y="4.3434" drill="0.7" diameter="1.3" rot="R180"/>
+<pad name="5" x="0" y="4.3434" drill="0.7" diameter="1.3" rot="R180"/>
+<pad name="6" x="-2.794" y="4.3434" drill="0.7" diameter="1.3" rot="R180"/>
+<text x="-4.445" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="-3.81" size="0.8128" layer="27">P</text>
+<text x="1.143" y="2.794" size="0.8128" layer="27">S</text>
+<hole x="-6.2484" y="0" drill="1.9"/>
+<hole x="6.2484" y="0" drill="1.9"/>
+</package>
+<package name="42TL">
+<description>&lt;b&gt;Xicon Ultra-Mini Audio Transformer&lt;/b&gt; 42TL Series&lt;p&gt;
+Category:   Audio &amp; Signal Transformers&lt;br&gt;
+Source: http://www.mouser.com//catalog/specsheets/164201.pdf</description>
+<wire x1="-7.493" y1="-2.9337" x2="7.5184" y2="-2.9337" width="0.127" layer="21"/>
+<wire x1="7.5184" y1="2.9163" x2="7.5184" y2="-2.9337" width="0.127" layer="21"/>
+<wire x1="-5.6439" y1="2.9575" x2="-5.6439" y2="5.6312" width="0.127" layer="21"/>
+<wire x1="-5.6439" y1="5.6312" x2="-3.7948" y2="7.4803" width="0.127" layer="21" curve="-90"/>
+<wire x1="5.6439" y1="5.6312" x2="3.7948" y2="7.4803" width="0.127" layer="21" curve="90.006197"/>
+<wire x1="-5.6438" y1="-5.6566" x2="-3.7947" y2="-7.5057" width="0.127" layer="21" curve="90"/>
+<wire x1="-3.7947" y1="-7.5057" x2="3.7948" y2="-7.5057" width="0.127" layer="21"/>
+<wire x1="3.7948" y1="-7.5057" x2="5.6439" y2="-5.6566" width="0.127" layer="21" curve="90"/>
+<wire x1="5.6439" y1="-5.6566" x2="5.6439" y2="-3.0099" width="0.127" layer="21"/>
+<wire x1="-5.6438" y1="-5.6566" x2="-5.6438" y2="-3.0099" width="0.127" layer="21"/>
+<wire x1="5.6439" y1="5.6312" x2="5.6439" y2="2.9575" width="0.127" layer="21"/>
+<wire x1="3.7948" y1="7.4803" x2="-3.7948" y2="7.4803" width="0.127" layer="21"/>
+<wire x1="7.493" y1="2.9337" x2="-7.5184" y2="2.9337" width="0.127" layer="21"/>
+<wire x1="-7.5184" y1="-2.9313" x2="-7.5184" y2="2.9337" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-6.096" drill="0.7" diameter="1.3"/>
+<pad name="2" x="0" y="-6.0681" drill="0.7" diameter="1.3"/>
+<pad name="3" x="2.54" y="-6.096" drill="0.7" diameter="1.3"/>
+<pad name="4" x="2.54" y="6.096" drill="0.7" diameter="1.3"/>
+<pad name="5" x="0" y="6.096" drill="0.7" diameter="1.3"/>
+<pad name="6" x="-2.54" y="6.096" drill="0.7" diameter="1.3"/>
+<text x="-4.8421" y="5.4048" size="1.27" layer="21">6</text>
+<text x="-4.642" y="-6.7059" size="1.27" layer="21">1</text>
+<text x="-5.08" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-7.3533" y="0" drill="1.9"/>
+<hole x="7.3533" y="0" drill="1.9"/>
+</package>
 <package name="42TM">
 <description>&lt;b&gt;Xicon Ultra-Mini Audio Transformer&lt;/b&gt; 42TM Series&lt;p&gt;
 Source: http://www.mouser.com/catalog/specsheets/164267.pdf</description>
@@ -180,8 +241,465 @@ Source: http://www.mouser.com/catalog/specsheets/164267.pdf</description>
 </package>
 </packages>
 <symbols>
+<symbol name="TRAFO-P3-S3">
+<circle x="-3.429" y="4.318" radius="0.127" width="0.3048" layer="94"/>
+<circle x="-3.429" y="-0.762" radius="0.127" width="0.3048" layer="94"/>
+<circle x="6.096" y="0.635" radius="0.127" width="0.3048" layer="94"/>
+<circle x="6.096" y="-4.445" radius="0.127" width="0.3048" layer="94"/>
+<rectangle x1="-2.794" y1="-5.1308" x2="-0.254" y2="5.1308" layer="94"/>
+<rectangle x1="2.794" y1="-5.1308" x2="5.334" y2="5.1308" layer="94"/>
+<wire x1="1.27" y1="5.207" x2="1.27" y2="-5.207" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="3" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="2"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="4" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="middle" direction="pas" swaplevel="3" rot="R180"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="3" rot="R180"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-8.763" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.715" y="2.667" size="1.27" layer="94">S</text>
+<text x="-4.191" y="-3.429" size="1.27" layer="94">P</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="42T?*" prefix="TR">
+<description>&lt;b&gt;Xicon Micro-Mini EI-12 Audio Transformers&lt;/b&gt; 42TL/42TC/42TM Series&lt;p&gt;
+Source:&lt;br&gt;
+http://www.mouser.com//catalog/specsheets/164201.pdf&lt;br&gt;
+http://www.mouser.com/catalog/specsheets/114225.pdf&lt;br&gt;
+http://www.mouser.com/catalog/specsheets/164267.pdf</description>
+<gates>
+<gate name="G$1" symbol="TRAFO-P3-S3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="C" package="42TC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+<technology name="001">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="013">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="016">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="C0" package="42TC">
+<connects>
+<connect gate="G$1" pin="1" pad="4"/>
+<connect gate="G$1" pin="2" pad="5"/>
+<connect gate="G$1" pin="3" pad="6"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="2"/>
+<connect gate="G$1" pin="6" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+<technology name="19">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="21">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="30">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="L" package="42TL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+<technology name="001">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="002">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="003">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="004">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="006">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="008">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="009">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="011">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="012">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="013">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="016">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="017">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="018">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="019">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="021">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="022">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="023">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="024">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="025">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="026">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="027">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="030">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="031">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="218">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M" package="42TM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+<technology name="001">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="002">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="003">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="004">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="006">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="008">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="009">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="010">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="011">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="012">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="013">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="016">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="017">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="018">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="019">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="021">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="022">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="023">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="024">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="025">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="026">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="027">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="030">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="031">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="114">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="117">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="118">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

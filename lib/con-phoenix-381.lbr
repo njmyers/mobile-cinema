@@ -273,8 +273,71 @@
 </package>
 </packages>
 <symbols>
+<symbol name="SKB">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="2.032" y1="0.762" x2="0.508" y2="-0.762" width="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<text x="3.556" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="SKBV">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="2.032" y1="0.762" x2="0.508" y2="-0.762" width="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<text x="3.556" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.016" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="MKDS1/2-3,81" prefix="X">
+<description>&lt;b&gt;MKDS 1&lt;/b&gt;/2-3,81 - Order No. 1727010 (RS-Online - 101-5384)&lt;br&gt;
+Pitch: 3,81mm&lt;br&gt;
+Number of terminals: 2&lt;br&gt;
+Rated Voltage: 160V&lt;br&gt;
+Maximum load current/ cross section: 12A/1.5mm2-AWG16&lt;br&gt;
+Housing Interlocking: none&lt;br&gt;
+Color: Green</description>
+<gates>
+<gate name="-1" symbol="SKB" x="2.54" y="0" addlevel="always"/>
+<gate name="-2" symbol="SKBV" x="2.54" y="-5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="2POL381">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MKDS1/3-3,81" prefix="X">
+<description>&lt;b&gt;MKDS 1&lt;/b&gt;/3-3,81 - Order No. 1727023 (RS-Online - 101-5390)&lt;br&gt;
+Pitch: 3,81mm&lt;br&gt;
+Number of terminals: 3&lt;br&gt;
+Rated Voltage: 160V&lt;br&gt;
+Maximum load current/ cross section: 12A/1.5mm2-AWG16&lt;br&gt;
+Housing Interlocking: none&lt;br&gt;
+Color: Green</description>
+<gates>
+<gate name="-1" symbol="SKB" x="2.54" y="0" addlevel="always"/>
+<gate name="-2" symbol="SKB" x="2.54" y="-5.08" addlevel="always"/>
+<gate name="-3" symbol="SKBV" x="2.54" y="-10.16" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="3POL381">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-2" pin="1" pad="2"/>
+<connect gate="-3" pin="1" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
