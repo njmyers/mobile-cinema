@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Mobile cinema is an audio/visual presentation unit designed for the rough conditions of the field. It is a solar powered, efficient and durable system that can endure the hardships associated with transportation, inclement weather and outdoor conditions. It emphasizes power efficiency and usability over features to create a product that satisfies the use case as cleanly as possible.
 
