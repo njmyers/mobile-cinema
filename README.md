@@ -9,3 +9,17 @@ The end result is a highly durable, flexible and efficient product that performs
 ## BOM
 
 Parts lists are located in this repository as well as the following [google sheet](https://docs.google.com/spreadsheets/d/1YABbkeHETHl9nhduOOJQ0aeivhLUgdqu8qCclFDEOm0/edit?usp=sharing).
+
+## Photos
+
+![Kibanda Boda v4.1 Product Photo](/assets/case.png)
+
+_Kibanda Boda v4.1 Product Photo_
+
+![Kibanda Boda v4.1 Top View](/assets/case_top.png)
+
+_Kibanda Boda v4.1 Top View_
+
+![Kibanda Boda v4.1 In Use](/assets/case_side.png)
+
+_Kibanda Boda v4.1 In Use_
