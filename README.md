@@ -16,10 +16,10 @@ Parts lists are located in this repository as well as the following [google shee
 
 _Kibanda Boda v4.1 Product Photo_
 
-![Kibanda Boda v4.1 Top View](/assets/case_top.png)
+![Kibanda Boda v4.1 Top View](/assets/case_top.jpg)
 
 _Kibanda Boda v4.1 Top View_
 
-![Kibanda Boda v4.1 In Use](/assets/case_side.png)
+![Kibanda Boda v4.1 In Use](/assets/case_side.jpg)
 
 _Kibanda Boda v4.1 In Use_
