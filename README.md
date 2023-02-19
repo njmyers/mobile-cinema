@@ -12,17 +12,17 @@ Parts lists are located in this repository as well as the following [google shee
 
 ## Photos
 
-![Kibanda Boda v4.1 Product Photo](/assets/case.png)
+![Village Video v4.1 Product Photo](/assets/case.png)
 
-_Kibanda Boda v4.1 Product Photo_
+_Village Video v4.1 Product Photo_
 
-![Kibanda Boda v4.1 Top View](/assets/case_top.jpg)
+![Village Video v4.1 Top View](/assets/case_top.jpg)
 
-_Kibanda Boda v4.1 Top View_
+_Village Video v4.1 Top View_
 
-![Kibanda Boda v4.1 In Use](/assets/case_side.jpg)
+![Village Video v4.1 In Use](/assets/case_side.jpg)
 
-_Kibanda Boda v4.1 In Use_
+_Village Video v4.1 In Use_
 
 ## Links
 
