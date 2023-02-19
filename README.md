@@ -23,3 +23,8 @@ _Kibanda Boda v4.1 Top View_
 ![Kibanda Boda v4.1 In Use](/assets/case_side.jpg)
 
 _Kibanda Boda v4.1 In Use_
+
+## Links
+
+- PVI International [Project Description](https://www.pvinternational.org/projects/kibanda-boda/)
+- PVI International [v4.0 Release](https://www.pvinternational.org/news/pvi-launches-village-video-4-0/)
